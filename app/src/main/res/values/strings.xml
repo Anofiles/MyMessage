@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyMessage</string>
+    <string name="button">Отправить</string>
+    <string name="button1">Отправить  в другое активити</string>
+    <string name="button2">Отправить  в другое активити, с постоянным выбором, сохранить выбор приложения нет возможности</string>
+    <string name="textText">Введите текст сообщения!</string>
+</resources>
