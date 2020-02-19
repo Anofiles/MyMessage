@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         intent.setType("text/plain");
         intent.putExtra(Intent.EXTRA_TEXT,message);
         String chooserTitle=getString(R.string.button);
+        String comid=new String();
         Intent chooserI =  Intent.createChooser(intent,"Выбрать активностBи");
         startActivity(chooserI);
         //startActivity(Intent.createChooser(intent,"Выбрать активность"));
